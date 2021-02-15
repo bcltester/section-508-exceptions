@@ -1,0 +1,1888 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10111111111" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0xC0504D">
+  <layouts>
+    <layout name="npnxnanbsnfns10111111111" font="Lato" controllayout="npnxnanbsnfns10111111111" colorscheme="pxabnsnfns10111111111" string_table="pxabnsnfns10111111111" />
+    <layout name="pxabnsnfns10111111111" font="Lato" controllayout="pxabnsnfns10111111111" colorscheme="pxabnsnfns10111111111" string_table="pxabnsnfns10111111111" />
+    <layout name="npxnabnsnfns10111111111" font="Lato" controllayout="npxnabnsnfns10111111111" colorscheme="pxabnsnfns10111111111" string_table="pxabnsnfns10111111111" />
+    <layout name="npnxnanbnsnfns10111111111" font="Lato" controllayout="npnxnanbnsnfns10111111111" colorscheme="pxabnsnfns10111111111" string_table="pxabnsnfns10111111111" />
+    <layout name="pxabnsnfns10111111110" font="Lato" controllayout="pxabnsnfns10111111110" colorscheme="pxabnsnfns10111111111" string_table="pxabnsnfns10111111111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Section 508 Exceptions" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="outline" value="true" group="linkleft" />
+              <listitem name="transcript" value="true" group="linkleft" />
+              <listitem name="resources" value="true" group="linkleft" />
+              <listitem name="glossary" value="true" group="linkleft" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="none" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="true" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Lato" />
+            </options>
+          </option>
+          <option name="settings" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111111110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns10111111111">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x404040" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x323232" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAAAAAA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x494949" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7B7B7B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1B1B1B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="30" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0504D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1B1B1B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x323232" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x303030" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x575757" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA2A2A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x303030" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns10111111111">
+      <string id="three_image_items">items</string>
+      <string id="three_image_viewed">viewed</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_item">item</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="closed_captions_tip">Closed Captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / Unmute</string>
+      <string id="next_shortcut">Next Slide</string>
+      <string id="playpause_shortcut">Play / Pause</string>
+      <string id="previous_shortcut">Previous Slide</string>
+      <string id="replay_shortcut">Replay Slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit Slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next Slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Transcript</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous Slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay Slide</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="acc_volume">volume</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6nm5cOfBXiv" displaytext="Section 508 Exceptions" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6nm5cOfBXiv.5vAzdjj4S6q" displaytext="Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.6RF52cHEDom" displaytext="Outside the Scope of Section 508?" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.5xAJLTtw43X" displaytext="Training Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.6TfGkRzq1jd" displaytext="Information and Communication Technology (ICT)" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.5l2zJIKr8dI" displaytext="Section 508 Exceptions" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.6pM4U2uQuta" displaytext="Check for Understanding: Legacy ICT" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.5tEasaipkv2" displaytext="Check for Understanding: National Security System ICT" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.5ey0sLWDZ2q" displaytext="Check for Understanding: Maintenance or Monitoring Spaces ICT" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.6gHHz9lZjTe" displaytext="Check for Understanding: Incidental to Federal Contract" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.5sUaVE4RxUS" displaytext="How to Provide Alternate Means" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.60zgGHU8mle" displaytext="Undue Burden or Fundamental Nature Change Exception Requirements" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.6Qp2JohEPjt" displaytext="Check for understanding: Undue Burden or Fundamental Nature Change" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.68OA59I5Xxx" displaytext="Next: Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.6OW8QIcVycJ" displaytext="Question 1 of 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.6GBeHQBUmwf" displaytext="Question 2 of 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.5nAZACKVNOE" displaytext="Question 3 of 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.5VbaZiIFuQM" displaytext="Alternate Question 3 of 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.5VJNFVj8nHm" displaytext="Question 4 of 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.64yYaMtsmpy" displaytext="Question 5 of 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.6GgvdlJGGwo" displaytext="Summary" expand="false" type="slide" />
+            <slidelink slideid="_player.6nm5cOfBXiv.6KR3Yz2DXwn" displaytext="Module Complete" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6nm5cOfBXiv.5vAzdjj4S6q" slidebank="false" type="slide">introduction roughly 1 in 4 adults lives with some kind of disability. section 508 requires that information and communication technology used, maintained, bought, or built by the federal government is accessible to persons with disabilities.</slidetext>
+      <slidetext slideid="6nm5cOfBXiv.6RF52cHEDom" slidebank="false" type="slide"> outside the scope of section 508? section 508 applies  section 508 does not apply </slidetext>
+      <slidetext slideid="6nm5cOfBXiv.5xAJLTtw43X" slidebank="false" type="slide">training objectives by the end of this training, you will be able to: accurately identify what categories of information and communication technology can be excepted from section 508 requirements correctly identify the section 508 exception that requires additional requirements or documentation explain what additional requirements or documentation is required for the section 508 exception that requires it</slidetext>
+      <slidetext slideid="6nm5cOfBXiv.6TfGkRzq1jd" slidebank="false" type="slide">information and communication technology (ict) section 508 defines information and communication technology, or ict, as: “information technology and other equipment, systems, technologies, or processes, for which the principal function is the creation, manipulation, storage, display, receipt, or transmission of electronic data and information, as well as any associated content.” examples of ict include, but are not limited to:  computers and peripheral equipment information kiosks and transaction machines telecommunications equipment ex: telephones and other real-time communication devices customer premises equipment multifunction office machines ex: machines that scan, fax, and print software applications web sites videos electronic documents ex: word, pdf, powerpoint, excel documents posted online</slidetext>
+      <slidetext slideid="6nm5cOfBXiv.5l2zJIKr8dI" slidebank="false" type="slide">please click on each exception category, read the description, and do the “check understanding”. you can advance once you have completed the entirety of each category.   undue burden or fundamental nature change in the case that making the ict compliant will result in undue burden to the agency with the ict or result in a change to the fundamental nature of the ict, it only has to comply with the revised section 508 standards to the extent it does not place an undue burden on the agency or change the fundamental nature of the ict. important: in the case of undue burden, the agency must provide an alternate means of accessing the information that is accessible to individuals with disabilities.  check understanding check understanding check understanding check understanding completed check understanding incidental to federal contract when a contractor acquires ict for her/his own use to fulfill a federal government contract, this ict is not required to conform to section 508 standards. this is what “ict acquired incidentally to a federal contract” means.  this exception does not apply in any of the following cases: the government will assume ownership of the ict after the contract ends the government directly procures the ict government employees or the public use the ict.  check understanding check understanding check understanding check understanding completed check understanding maintenance or monitoring spaces ict ict located in areas where service personnel only go to service, repair, or monitor will be excluded from section 508 compliance.  check understanding check understanding check understanding check understanding completed check understanding national security system ict national security system ict does not need to comply with section 508 standards. “national security system” ict is defined as federal government ict that is one of the following: involves intelligence activities involves cryptologic activities related to national security involves command and control of military forces involves equipment that is an integral part of a weapon or weapons system is critical to the direct fulfillment of military or intelligence missions (does not include routine administrative and business applications such as payroll, finance, logistics, and personnel management)  check understanding check understanding check understanding check understanding completed check understanding legacy ict any component or portion of existing ict that meets these three conditions shall not need to comply with the revised 508 standards:  deployed, maintained, or used on or before january 18, 2018 compliant with an earlier version of section 508 has not been altered on or after january 18, 2018   check understanding check understanding check understanding check understanding completed check understanding section 508 exceptions legacy ict national security system ict incidental to federal contract undue burden or fundamental nature change maintenance or monitoring spaces ict click on each category image to learn about section 508 exceptions. </slidetext>
+      <slidetext slideid="6nm5cOfBXiv.5sUaVE4RxUS" slidebank="false" type="slide">how to provide alternate means click on the items below to read some examples of how to provide alternate means to access data. provide a non-technological way to access the data. example: provide a braille paper form as an alternative to an online form that is not fully compliant. provide a non-technological way to access the data. provide an alternate, accessible digital means to access the data. example: direct to an alternate website that provides the same data that is screen reader compatible. provide an alternate, accessible digital means to access the data.</slidetext>
+      <slidetext slideid="6nm5cOfBXiv.6gHHz9lZjTe" slidebank="false" type="slide">are you ready to submit your answer to this question?    confirmation for attempt 1 of 2 confirmation for attempt 2 of 2 confirmation for attempt 1 of 2 submit submit submit submit completed submit cancel cancel cancel completed cancel incorrect that is not correct. it might help to remember the conditions that would disqualify from the ict receiving the exception. then choose the statements that express the opposite of those disqualification conditions. please try again. try again try again try again try again try again try again incorrect you did not select the correct items. the ict must be procured by the contractor, cannot be used by government employees or the public, and will not be relinquished to government ownership after the contract ends. continue continue continue continue continue continue correct that's right! the ict must be procured by the contractor, cannot be used by government employees or the public, and will not be relinquished to government ownership after the contract ends. continue continue continue continue continue continue  what needs to be true for an ict to receive an exception for being incidental to a federal contract? multiple answers possible. select all correct answers, then click on the submit (checkmark) button on the bottom-right of the player. after the contract is fulfilled, the ict remains with the contractor and is not relinquished to the government. after the contract is fulfilled, the ict remains with the contractor and is not relinquished to the government. after the contract is fulfilled, the ict remains with the contractor and is not relinquished to the government. after the contract is fulfilled, the ict remains with the contractor and is not relinquished to the government. after the contract is fulfilled, the ict remains with the contractor and is not relinquished to the government. after the contract is fulfilled, the ict remains with the contractor and is not relinquished to the government. during the contract, the ict is used in spaces fully owned by the federal government. during the contract, the ict is used in spaces fully owned by the federal government. during the contract, the ict is used in spaces fully owned by the federal government. during the contract, the ict is used in spaces fully owned by the federal government. during the contract, the ict is used in spaces fully owned by the federal government. during the contract, the ict is used in spaces fully owned by the federal government. the ict is used by the contractor only, and not government employees or the public. the ict is used by the contractor only, and not government employees or the public. the ict is used by the contractor only, and not government employees or the public. the ict is used by the contractor only, and not government employees or the public. the ict is used by the contractor only, and not government employees or the public. the ict is used by the contractor only, and not government employees or the public. the ict has been purchased from an official federal government vendor and used according to specifications. the ict has been purchased from an official federal government vendor and used according to specifications. the ict has been purchased from an official federal government vendor and used according to specifications. the ict has been purchased from an official federal government vendor and used according to specifications. the ict has been purchased from an official federal government vendor and used according to specifications. the ict has been purchased from an official federal government vendor and used according to specifications. the ict was procured by the contractor, not the federal government. the ict was procured by the contractor, not the federal government. the ict was procured by the contractor, not the federal government. the ict was procured by the contractor, not the federal government. the ict was procured by the contractor, not the federal government. the ict was procured by the contractor, not the federal government. ict incidental to government contract</slidetext>
+      <slidetext slideid="6nm5cOfBXiv.5tEasaipkv2" slidebank="false" type="slide">are you ready to submit your answer to this question?    confirmation for attempt 1 of 2 confirmation for attempt 2 of 2 confirmation for attempt 1 of 2 submit submit submit submit completed submit cancel cancel cancel completed cancel incorrect that is not correct. look back at the different definitions of what a national security system is. then identify which choices match those definitions.  please try again. try again try again try again try again try again try again incorrect you did not select the correct response.  a relates to intelligence activities, b relates to cryptologic activities, c relates to weapon systems, e relates to control of military forces, but d (personnel management application) is a routine admin or business application that is excluded from national security systems that are ”critical to the direct fulfillment of military or intelligence missions”. continue continue continue continue continue continue correct that's right!  you selected the correct response.  a relates to intelligence activities, b relates to cryptologic activities, c relates to weapon systems, e relates to control of military forces, but d (personnel management application) is a routine admin or business application that is excluded from national security systems that are ”critical to the direct fulfillment of military or intelligence missions”. continue continue continue continue continue continue  which of these are national security system ict (and therefore can be an exception to section 508 requirements)? multiple answers possible. select all correct answer(s), then click on the submit (checkmark) button on the bottom-right of the player to submit.  a. portable surveillance devices for gathering intelligence a. portable surveillance devices for gathering intelligence  b. terminal for decrypting malicious communications b. terminal for decrypting malicious communications  e. navigation display for steering aircraft carrier e. navigation display for steering aircraft carrier  c. command interface for attack missile c. command interface for attack missile  d. personnel management application critical for military administration d. personnel management application critical for military administration   national security system ict</slidetext>
+      <slidetext slideid="6nm5cOfBXiv.5ey0sLWDZ2q" slidebank="false" type="slide">are you ready to submit your answer to this question?    confirmation for attempt 1 of 2 confirmation for attempt 2 of 2 confirmation for attempt 1 of 2 submit submit submit submit completed submit cancel cancel cancel completed cancel incorrect that is not correct. maintenance and monitoring spaces are frequented only by service personnel for maintenance, repair, etc. and not accessed by general workers. please try again. try again try again try again try again try again try again incorrect you did not select the correct response.  service personnel only will go into the server room and check the panel beneath the aircraft wing. however, many general workers will go into the copy room and dining area, so those spaces are not maintenance and monitoring spaces. continue continue continue continue continue continue correct that's right!  you selected the correct response. service personnel only will go into the server room and check the panel beneath the aircraft wing. however, many general workers will go into the copy room and dining area, so those spaces are not maintenance and monitoring spaces. continue continue continue continue continue continue  which of these are ict in a maintenance or monitoring space? multiple answers possible. select all correct answer(s), then click on the submit (checkmark) button on the bottom-right of the player to submit.  which of these are ict in a maintenance or monitoring space? multiple answers possible. select all correct answer(s), then click on the submit (checkmark) button on the bottom-right of the player to submit.  a. a server room: sole purpose is housing web servers a. a server room: sole purpose is housing web servers  b. copy machine in copy room, used by most workers in office b. copy machine in copy room, used by most workers in office  d. status display beneath wing of a military jet d. status display beneath wing of a military jet  c. information kiosk in common lunch room  c. information kiosk in common lunch room  maintenance or monitoring spaces ict</slidetext>
+      <slidetext slideid="6nm5cOfBXiv.6pM4U2uQuta" slidebank="false" type="slide">are you ready to submit your answer to this question?    confirmation for attempt 1 of 2 confirmation for attempt 2 of 2 confirmation for attempt 1 of 2 submit submit submit submit completed submit cancel cancel cancel completed cancel reminder: any component or portion of existing ict that meets these three conditions shall not need to comply with the revised 508 standards:  1. deployed, maintained, or used on or before january 18, 2018 2. compliant with an earlier version of section 508 3. has not been altered on or after january 18, 2018  incorrect that is not correct. check the description against the three criteria that qualifies an ict for the legacy ict exception.  please try again. try again try again try again try again try again try again incorrect you did not select the correct response.  this ict does not meet the third criterion, which requires that the ict must have not been altered since january 18, 2018. therefore, this ict does not qualify as legacy ict and is not excepted from section 508. continue continue continue continue continue continue correct that's right!  this ict does not meet the third criterion, which requires that the ict must have not been altered since january 18, 2018. therefore, this ict does not qualify as legacy ict and is not excepted from section 508. continue continue continue continue continue continue  true true true true true true false false false false false false this piece of equipment is legacy ict and excepted from section 508 requirements. true or false?  after you have chosen true or false, click on the submit (checkmark) button on the bottom-right of the player to submit your answer.   relevant facts about this ict: purchased in 1980 and modified in 1992 to display temperature scans has been used since 1992 to today for the above purpose was made compliant to section 508 standards in 2012 its user interface was updated most recently in 2019 to reflect most recent best design practices legacy ict</slidetext>
+      <slidetext slideid="6nm5cOfBXiv.60zgGHU8mle" slidebank="false" type="slide">undue burden or fundamental nature change exception requirements additionally, the agency must perform the following to be eligible for the undue burden or fundamental nature change exception:  evaluate whether the proposed compliance change would lead to significant difficulty or expense considering the agency resources available to the program or component or would change the fundamental nature of the ict. provide documentation of:  the basis for determining that the conformance would lead to undue burden or a fundamental change to the nature of the ict. an explanation of why and to what extent compliance with section 508 requirements would create an undue burden or result in fundamental alteration of the nature of the ict.</slidetext>
+      <slidetext slideid="6nm5cOfBXiv.6Qp2JohEPjt" slidebank="false" type="slide">are you ready to submit your answer to this question?    confirmation for attempt 1 of 2 confirmation for attempt 2 of 2 confirmation for attempt 1 of 2 submit submit submit submit completed submit cancel cancel cancel completed cancel incorrect that is not correct. it may help to break the necessary procedures into what needs to be done first, and then what needs to be documented. please try again. try again try again try again try again try again try again incorrect you did not select the correct response. after evaluating whether compliance would lead to undue burden or a fundamental nature change, you need documentation for the basis for determining this and documentation explaining why and to what extent complying would lead to undue burden or fundamental nature change in the ict. continue continue continue continue continue continue correct that's right!  after evaluating whether compliance would lead to undue burden or a fundamental nature change, you need documentation for the basis for determining this and documentation explaining why and to what extent complying would lead to undue burden or fundamental nature change in the ict. continue continue continue continue continue continue  explain why and to what extent complying with section 508 would cause undue burden or fundamental nature change (**documented in writing) define the basis for determining that the conformance would lead to undue burden or a fundamental nature change (**documented in writing) evaluate whether compliance would lead to significant difficulty or expense, or fundamentally change the nature of the ict (**done before documentation) what must be performed to establish an exception to section 508 based on undue burden or fundamental change to the nature of the ict?  correctly match the first word of a sentence (on the left) with the rest of the sentence (select from the dropdown menu). when you have matched all sentence parts together, click on the submit (checkmark) button on the bottom-right of the player. undue burden or fundamental nature change exception requirements</slidetext>
+      <slidetext slideid="6nm5cOfBXiv.68OA59I5Xxx" slidebank="false" type="slide">next: quiz now that you have learned about exceptions to section 508, you will be given a quiz to check your understanding. there are five questions on the quiz. you will have two attempts for each question.   the passing score for the quiz is 70%. this score will be recorded and reviewed by the learning and development team to assess learning and the effectiveness of this training. it may help to review the material before starting the quiz. to do so, press the “back” button on the player to return to previous slides.</slidetext>
+      <slidetext slideid="6nm5cOfBXiv.6OW8QIcVycJ" slidebank="false" type="slide">are you ready to submit your answer to this question?    confirmation for attempt 1 of 2 confirmation for attempt 2 of 2 confirmation for attempt 1 of 2 submit submit submit submit completed submit cancel cancel cancel completed cancel incorrect that is not correct. remember: there may be more than one correct answer – select all that are correct. please try again. try again try again try again try again try again try again incorrect you did not select all the correct choices.  the five ways ict can be excepted from section 508 requirements are 1) legacy ict, 2) national security systems, 3) maintenance or monitoring space, 4) incident to a federal contract, and 5) undue burden or fundamental nature change to the ict. continue continue continue continue continue continue correct that's right! the five ways ict can be excepted from section 508 requirements are 1) legacy ict, 2) national security systems, 3) maintenance or monitoring space, 4) incident to a federal contract, and 5) undue burden or fundamental nature change to the ict. continue continue continue continue continue continue  what qualifies ict to be excepted from section 508 requirements?  select all correct answers, then click on the submit (checkmark) button on the bottom-right of the player. multiple answers possible. it is legacy ict that complies with an earlier version of the rehabilitation act and hasn’t been altered since 2018. it is legacy ict that complies with an earlier version of the rehabilitation act and hasn’t been altered since 2018. it is legacy ict that complies with an earlier version of the rehabilitation act and hasn’t been altered since 2018. it is legacy ict that complies with an earlier version of the rehabilitation act and hasn’t been altered since 2018. it is legacy ict that complies with an earlier version of the rehabilitation act and hasn’t been altered since 2018. it is legacy ict that complies with an earlier version of the rehabilitation act and hasn’t been altered since 2018. the ict is part of national security systems. the ict is part of national security systems. the ict is part of national security systems. the ict is part of national security systems. the ict is part of national security systems. the ict is part of national security systems. the ict was acquired incident to a federal contract. the ict was acquired incident to a federal contract. the ict was acquired incident to a federal contract. the ict was acquired incident to a federal contract. the ict was acquired incident to a federal contract. the ict was acquired incident to a federal contract. the ict is location in an area where only service personnel goes to maintain or monitor it. the ict is location in an area where only service personnel goes to maintain or monitor it. the ict is location in an area where only service personnel goes to maintain or monitor it. the ict is location in an area where only service personnel goes to maintain or monitor it. the ict is location in an area where only service personnel goes to maintain or monitor it. the ict is location in an area where only service personnel goes to maintain or monitor it. making the ict compliant with section 508 would cause undue burden to the agency or change the ict’s fundamental nature. making the ict compliant with section 508 would cause undue burden to the agency or change the ict’s fundamental nature. making the ict compliant with section 508 would cause undue burden to the agency or change the ict’s fundamental nature. making the ict compliant with section 508 would cause undue burden to the agency or change the ict’s fundamental nature. making the ict compliant with section 508 would cause undue burden to the agency or change the ict’s fundamental nature. making the ict compliant with section 508 would cause undue burden to the agency or change the ict’s fundamental nature. the ict is operated only by federal employees and not accessed by the general public. the ict is operated only by federal employees and not accessed by the general public. the ict is operated only by federal employees and not accessed by the general public. the ict is operated only by federal employees and not accessed by the general public. the ict is operated only by federal employees and not accessed by the general public. the ict is operated only by federal employees and not accessed by the general public. the agency responsible for the ict is the united states access board or directly affiliated with the access board. the agency responsible for the ict is the united states access board or directly affiliated with the access board. the agency responsible for the ict is the united states access board or directly affiliated with the access board. the agency responsible for the ict is the united states access board or directly affiliated with the access board. the agency responsible for the ict is the united states access board or directly affiliated with the access board. the agency responsible for the ict is the united states access board or directly affiliated with the access board. an alternative means for disabled individuals to access the service or data provided by the ict is available. an alternative means for disabled individuals to access the service or data provided by the ict is available. an alternative means for disabled individuals to access the service or data provided by the ict is available. an alternative means for disabled individuals to access the service or data provided by the ict is available. an alternative means for disabled individuals to access the service or data provided by the ict is available. an alternative means for disabled individuals to access the service or data provided by the ict is available. question 1 of 5</slidetext>
+      <slidetext slideid="6nm5cOfBXiv.6GBeHQBUmwf" slidebank="false" type="slide">are you ready to submit your answer to this question?    confirmation for attempt 1 of 2 confirmation for attempt 2 of 2 confirmation for attempt 1 of 2 submit submit submit submit completed submit cancel cancel cancel completed cancel incorrect that is not correct. it may help to review your notes or slides from before and remember which one cannot be considered for exception unless several other follow-up steps are performed. please try again. try again try again try again try again try again try again incorrect that is not correct. an exception based on undue burden or fundamental nature change requires additional procedures. continue continue continue continue continue continue correct that's right! an exception based on undue burden or fundamental nature change requires additional procedures. continue continue continue continue continue continue question 2 of 5 legacy ict legacy ict national security system ict national security system ict incidental to federal contract incidental to federal contract undue burden or fundamental nature change undue burden or fundamental nature change maintenance or monitoring spaces ict maintenance or monitoring spaces ict which exception requires additional procedures? select one, then click on the submit (checkmark) button on the bottom-right of the player. </slidetext>
+      <slidetext slideid="6nm5cOfBXiv.5nAZACKVNOE" slidebank="false" type="slide">are you ready to submit your answer to this question?    confirmation for attempt 1 of 2 confirmation for attempt 2 of 2 confirmation for attempt 1 of 2 submit submit submit submit completed submit cancel cancel cancel completed cancel incorrect that is not correct. choose the procedures mentioned in the slides that are required for this exception. don’t be confused by ones not stated earlier in the slides. please try again. try again try again try again try again try again try again incorrect that is not correct. an evaluation, documentation, and alternate means for disabled people to access are required for this exception. continue continue continue continue continue continue correct that's right! an evaluation, documentation, and alternate means for disabled people to access are required for this exception. continue continue continue continue continue continue  question 3 of 5  for the undue burden or fundamental nature change exception, what three procedures are required? drag and drop the required procedures to the “required” folder, then click on the submit (checkmark) button on the bottom-right of the player. alternatively, click this link for an alternative text-based version of this question. procedures   evaluate whether the proposed compliance change would lead to significant difficulty or expense. evaluate whether the proposed compliance change would lead to significant difficulty or expense. evaluate whether the proposed compliance change would lead to significant difficulty or expense.  inform your ada representative. inform your ada representative. inform your ada representative. provide an alternate means of accessing the information that is accessible to individuals with disabilities provide an alternate means of accessing the information that is accessible to individuals with disabilities provide an alternate means of accessing the information that is accessible to individuals with disabilities provide supporting documentation. provide supporting documentation. provide supporting documentation. run usability tests with individuals with disabilities to assess impact on their usage of the ict. run usability tests with individuals with disabilities to assess impact on their usage of the ict. run usability tests with individuals with disabilities to assess impact on their usage of the ict. required</slidetext>
+      <slidetext slideid="6nm5cOfBXiv.5VJNFVj8nHm" slidebank="false" type="slide">are you ready to submit your answer to this question?    confirmation for attempt 1 of 2 confirmation for attempt 2 of 2 confirmation for attempt 1 of 2 submit submit submit submit completed submit cancel cancel cancel completed cancel incorrect that is not correct. make sure you enter only one word in each blank and have spelled them correctly. if you are still stuck, go back to the previous slides to review. please try again. try again try again try again try again try again try again incorrect that is not correct. you need to document 1) the basis for determining that the conformance would lead to undue burden or a fundamental change to the nature of the ict, and 2) an explanation of why and to what extent compliance would create undue burden or change the fundamental nature of the ict. continue continue continue continue continue continue correct that's right! you need to document 1) the basis for determining that the conformance would lead to undue burden or a fundamental change to the nature of the ict, and 2) an explanation of why and to what extent compliance would create undue burden or change the fundamental nature of the ict. continue continue continue continue continue continue question 4 of 5 the following must be documented: documentation is required for an undue burden or fundamental nature change exception.  what exact documentation is required? complete the sentences by filling in each blank with one word, then click on the submit (checkmark) button on the bottom-right of the player. 1. the       (blank 1)       for determining that the conformance would lead to       (blank 2)           (blank 3)       or a      (blank 4)              (blank 5)       to the nature of the ict. correct correct correct correct correct correct correct incorrect incorrect incorrect incorrect incorrect incorrect incorrect  (blank 1) to                                                        or a                                                        to the nature of the ict. 2. an explanation of     (blank 6)        and to what     (blank 7)           compliance with section 508 requirements would create an undue burden or result in fundamental alteration of the nature of the ict. (blank 2) (blank 3) (blank 4) (blank 5) (blank 6) (blank 7)</slidetext>
+      <slidetext slideid="6nm5cOfBXiv.64yYaMtsmpy" slidebank="false" type="slide">are you ready to submit your answer to this question?    confirmation for attempt 1 of 2 confirmation for attempt 2 of 2 confirmation for attempt 1 of 2 submit submit submit submit completed submit cancel cancel cancel completed cancel incorrect the facts say nothing about updating the ict to compliance as leading to an undue burden or a fundamental change to the nature of the ict. try again! continue continue continue continue continue continue incorrect this ict was purchased by the irs directly, not acquired through a federal contract. try again! continue continue continue continue continue continue incorrect the facts say that this ict is located in the office supply room, which is not a space strictly used for the purposes of maintaining or monitoring equipment. try again! continue continue continue continue continue continue incorrect the facts do not describe it being used for a national security system. it is being used for the irs for scanning internal documents, which would not be considered part of a national security system. try again! continue continue continue continue continue continue correct correct! this qualifies as legacy ict because it was brought to full compliance with an earlier version of the rehabilitation act (which includes section 508), and hasn’t been altered on or after january 18, 2018. therefore it is excepted. continue continue continue continue continue continue incorrect this actually qualifies for a section 508 exception.  reread through the facts and the criteria for each exception and try again! continue continue continue continue continue continue  not excepted from section 508 not excepted from section 508 not excepted from section 508 not excepted from section 508 not excepted from section 508 not excepted from section 508 excepted because it is legacy ict excepted because it is legacy ict excepted because it is legacy ict excepted because it is legacy ict excepted because it is legacy ict excepted because it is legacy ict excepted because it is national security system ict excepted because it is national security system ict excepted because it is national security system ict excepted because it is national security system ict excepted because it is national security system ict excepted because it is national security system ict excepted because it is in a maintenance or monitoring space excepted because it is in a maintenance or monitoring space excepted because it is in a maintenance or monitoring space excepted because it is in a maintenance or monitoring space excepted because it is in a maintenance or monitoring space excepted because it is in a maintenance or monitoring space excepted because it was acquired incidental to a federal contract excepted because it was acquired incidental to a federal contract excepted because it was acquired incidental to a federal contract excepted because it was acquired incidental to a federal contract excepted because it was acquired incidental to a federal contract excepted because it was acquired incidental to a federal contract excepted because it will result in undue burden or cause a fundamental nature change to the ict excepted because it will result in undue burden or cause a fundamental nature change to the ict excepted because it will result in undue burden or cause a fundamental nature change to the ict excepted because it will result in undue burden or cause a fundamental nature change to the ict excepted because it will result in undue burden or cause a fundamental nature change to the ict excepted because it will result in undue burden or cause a fundamental nature change to the ict read the description of a particular ict on the left. then choose the correct answer. after you have chosen the correct answer in the right column, click on the submit (checkmark) button on the bottom-right of the player.   relevant facts about this ict: used to scan confidential documents for the federal government’s internal revenue service (irs) was purchased in 1998 by the irs, and was last altered in 2017 to be fully compliant with section 508 located in the irs’s office supply room on the 4th floor  question 5 of 5</slidetext>
+      <slidetext slideid="6nm5cOfBXiv.6GgvdlJGGwo" slidebank="false" type="slide">summary  here is a summary of what you learned in this training module: section 508 requires information and communication technology (ict) used, maintained, bought, or built by the federal government to be accessible to people with disabilities. information and communication technology is defined by section 508 to be any technology, equipment, system, or process whose principal function is to create, manipulate, store, display, receive, or transmit electronic data or information and associated content. there are five exceptions to the requirement that ict meets section 508 accessibility standards: legacy ict, national security systems, maintenance or monitoring spaces, incidental to federal contract, and undue burden or fundamental nature change the undue burden or fundamental nature change exception requires i) providing disabled individuals access to an alternative means of accessing the information, and ii) the following additional procedures: an evaluation of whether the proposed compliance change would cause significant difficulty or expense (”undue burden”) to the agency or change the fundamental nature of the ict documentation of:  the basis for determining that conformance would lead to undue burden or a fundamental change to the nature of the ict explanation of why and to what extent compliance with section 508 requirements would create an undue burden or result in fundamental alteration of the nature of the ict</slidetext>
+      <slidetext slideid="6nm5cOfBXiv.6KR3Yz2DXwn" slidebank="false" type="slide">module complete congratulations on learning about exceptions to section 508!   at this point, you should be able to: accurately identify what categories of information and communication technology can be excepted from section 508 requirements correctly identify the section 508 exception that requires additional requirements or documentation explain what additional requirements or documentation is required for the section 508 exception that requires it in the next module, you will learn exactly how to complete the additional requirements or documentation noted in item 3 above. press the “next” button on the bottom right of the player to complete this training module or the “back” button to review. if you have any questions about the content covered in this training, please send a message to the learning and development team.</slidetext>
+      <slidetext slideid="6nm5cOfBXiv.5VbaZiIFuQM" slidebank="false" type="slide">are you ready to submit your answer to this question?    confirmation for attempt 1 of 2 confirmation for attempt 2 of 2 confirmation for attempt 1 of 2 submit submit submit submit completed submit cancel cancel cancel completed cancel incorrect that is not correct. choose the procedures mentioned in the slides that are required for this exception. don’t be confused by ones not stated earlier in the slides. please try again. try again try again try again try again try again try again incorrect that is not correct. an evaluation, documentation, and alternate means for disabled people to access are required for this exception. continue continue continue continue continue continue correct that's right! an evaluation, documentation, and alternate means for disabled people to access are required for this exception. continue continue continue continue continue continue  for the undue burden and fundamental nature change exception, what three procedures are required? select all three correct answers, then click on the submit (checkmark) button on the bottom-right of the player. inform your ada representative. inform your ada representative. inform your ada representative. inform your ada representative. inform your ada representative. inform your ada representative. evaluate whether the proposed compliance change would lead to significant difficulty or expense. evaluate whether the proposed compliance change would lead to significant difficulty or expense. evaluate whether the proposed compliance change would lead to significant difficulty or expense. evaluate whether the proposed compliance change would lead to significant difficulty or expense. evaluate whether the proposed compliance change would lead to significant difficulty or expense. evaluate whether the proposed compliance change would lead to significant difficulty or expense. provide an alternate means of accessing the information that is accessible to individuals with disabilities provide an alternate means of accessing the information that is accessible to individuals with disabilities provide an alternate means of accessing the information that is accessible to individuals with disabilities provide an alternate means of accessing the information that is accessible to individuals with disabilities provide an alternate means of accessing the information that is accessible to individuals with disabilities provide an alternate means of accessing the information that is accessible to individuals with disabilities provide supporting documentation. provide supporting documentation. provide supporting documentation. provide supporting documentation. provide supporting documentation. provide supporting documentation. run usability tests with individuals with disabilities to assess impact on their usage of the ict. run usability tests with individuals with disabilities to assess impact on their usage of the ict. run usability tests with individuals with disabilities to assess impact on their usage of the ict. run usability tests with individuals with disabilities to assess impact on their usage of the ict. run usability tests with individuals with disabilities to assess impact on their usage of the ict. run usability tests with individuals with disabilities to assess impact on their usage of the ict. question 3 of 5</slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#B4B4B4'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="https://www.access-board.gov/ict/" image="story_content/url.png" title="Full Text of Section 508 (final rule)" />
+      <resource url="https://www.section508.gov/" image="story_content/url.png" title="Section508.gov - hub for Section 508 resources" />
+    </resources>
+  </resource_data>
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="6nm5cOfBXiv.5vAzdjj4S6q" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Audio Narration:"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="We live, work, and play with people of different gender, sexual orientation, race, ethnicity, socioeconomic status, age, religion, political beliefs, and disability status.  Every person, no matter what their background or status, has the right to have the same access to information and services as others.  &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="We have learned in an earlier training module that the Rehabilitation Act of 1973 was created to give people with disabilities equal protections under the law.  Currently, in the United States, roughly 1 in 4 adults has some kind of disability.  We also learned that Section 508 of the Rehabilitation Act calls out, in particular, that Information and Communication Technology used, maintained, bought, or built by the Federal government must be accessible to persons with disabilities." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.6RF52cHEDom" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Audio Narration:"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="As employees of the federal government, we are responsible for ensuring that our Information and Communication Technology is compliant with Section 508 and gives equitable access to persons with disabilities.  However, often department resources are limited, and we need to prioritize which technologies or programs get addressed first.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="In order to prioritize appropriately, we need to understand what is within the scope of Section 508 and what is not.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="In this module, you will first learn what exceptions there are to Section 508 requirements, so you know what technology you do not need to prioritize for Section 508 compliance.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="With this knowledge, you will be able to prioritize the accessibility improvements to the remaining items that are within the scope of Section 508.  &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="In a later module, you will learn exactly how to make Information and Communication Technology within the scope of Section 508 accessible to people with disabilities and what to do if there is nothing available in the market to make a piece of technology fully accessible.&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.5xAJLTtw43X" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Audio Narration:"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="This training focuses on what is outside the scope of Section 508 requirements.  By the end of this training you will be able to:&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="1. Accurately identify what categories of Information and Communication Technology can be excepted from Section 508 requirements&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="2. Correctly identify the Section 508 exception that requires additional requirements or documentation&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="3. Explain what additional requirements or documentation is required for the Section 508 exception that requires it&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Before starting, one thing to note is that even if certain technology falls outside of the scope of Section 508, as a best practice, it should still be assessed for accessibility at some point.  However, in terms of prioritization, Information and Communication Technology mandated under Section 508 should first be made accessible to persons with disabilities before moving on to other technology outside the scope of Section 508.&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.6TfGkRzq1jd" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Audio Narration:"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Before we dive into the details of what is excepted from Section 508, let’s review the definition of Information and Communication Technology, which you learned in the previous module.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Section 508 defines Information and Communication Technology, or ICT, as:&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="“Information technology and other equipment, systems, technologies, or processes, for which the principal function is the creation, manipulation, storage, display, receipt, or transmission of electronic data and information, as well as any associated content.”&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Examples of ICT include, but are not limited to the technology noted in this list.  Please read through the list to get familiar with the breadth of ICT as defined by Section 508.&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.5l2zJIKr8dI" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Audio Narration:"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Now that we have defined ICT and seen some examples, we will learn the kinds of ICT excepted from Section 508.  Please click on each category image on this slide to learn about each of the five major Section 508 exceptions." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.5sUaVE4RxUS" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="No Audio Narration on This Slide."&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.6gHHz9lZjTe" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="No Audio Narration on This Slide."&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.5tEasaipkv2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="No Audio Narration on This Slide."&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.5ey0sLWDZ2q" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="No Audio Narration on This Slide."&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.6pM4U2uQuta" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="No Audio Narration on This Slide."&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.60zgGHU8mle" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Audio Narration:&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="One of the exceptions, the Undue Burden or Fundamental Nature Change, has several procedures that must be followed in addition to providing an alternate means of access to disabled individuals.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="The agency must perform the following to be eligible for the Undue Burden or Fundamental Nature Change exception:&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="1. Evaluate whether the proposed compliance change would lead to significant difficulty or expense considering the agency resources available to the program or component OR would change the fundamental nature of the ICT.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="2. Provide documentation of:&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="a. The basis for determining that the conformance would lead to undue burden or a fundamental change to the nature of the ICT.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="b. An explanation of why and to what extent compliance with Section 508 requirements would create an undue burden or result in fundamental alteration of the nature of the ICT.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.6IcJylXDm4u" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="No Audio Narration on This Slide."&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.68OA59I5Xxx" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Audio Narration:&amp;#xA;"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Now that you have learned about exceptions to Section 508, you will be given a quiz to check your understanding.&amp;#xD;Please read through the supplemental information on this slide for more details about the quiz.  When you are ready, press the “Next” button on the bottom-right of the player.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.6OW8QIcVycJ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="No Audio Narration on This Slide."&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.6GBeHQBUmwf" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="No Audio Narration on This Slide."&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.5nAZACKVNOE" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="No Audio Narration on This Slide."&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.5VJNFVj8nHm" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="No Audio Narration on This Slide."&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.64yYaMtsmpy" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="No Audio Narration on This Slide."&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.6bjnzBbg01n" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="No Audio Narration on This Slide."&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.6GgvdlJGGwo" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Audio Narration:"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Now that you know what ICT is excepted from Section 508 requirements, you are now equipped to identify your department’s non-exempt ICT that needs to be made accessible to disabled individuals. This is the first step in prioritizing resources for Section 508 compliance and developing an action plan for your department.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Read though the summary here to review what you learned in this training module.&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.6KR3Yz2DXwn" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Audio Narration:&amp;#xA;"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Congratulations on learning about exceptions to Section 508!  &amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="At this point, you should be able to:&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="1. Accurately identify what categories of Information and Communication Technology can be excepted from Section 508 requirements&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="2. Correctly identify the Section 508 exception that requires additional requirements or documentation&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="3. Explain what additional requirements or documentation is required for the Section 508 exception that requires it&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="In the next module, you will learn exactly how to complete the additional requirements or documentation noted in item 3 above.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6nm5cOfBXiv.5VbaZiIFuQM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="No Audio Narration on This Slide."&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data>
+    <terms>
+      <term title="Information and Communication Technology (ICT)">Information technology and other equipment, systems, technologies, or processes, for which the principal function is the creation, manipulation, storage, display, receipt, or transmission of electronic data and information, as well as any associated content.
+
+Examples of ICT include, but are not limited to: computers and peripheral equipment; information kiosks and transaction machines; telecommunications equipment; customer premises equipment; multifunction office machines; software; applications; Web sites; videos; and, electronic documents.</term>
+    </terms>
+  </glossary_data>
+</bwFrame>
